@@ -1,0 +1,3 @@
+This is my syscall history log.
+gcc syscall1.c -o syscall1
+./syscall1
