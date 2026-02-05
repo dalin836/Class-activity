@@ -1,0 +1,15 @@
+  823  ./print
+  824  cat print.c
+  825  ./print
+  826  mkdir hello.py
+  827  nano hello.py
+  828  ls
+  829  mkdir forkchild.c
+  830  mkdir activity2
+  831  touch forkchild.c
+  832  cd activity2
+  833  touch forkchild.c
+  834  nano forkchild.c
+  835  gcc -o forkchild forkchild.c
+  836  ./forkchild > result_forkchild.txt
+  837  history | tail -n 15 > command_used_forkchild.txt
